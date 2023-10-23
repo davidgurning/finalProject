@@ -612,14 +612,25 @@
     }
 
     .about .photos img {
-      padding-right: 100px;
+      padding-right: 42px;
       height: 240px;
+      margin-left: -40px;
     }
 
+    .about .up p {
+      font-size: 1.1rem;
+      font-weight: 200;
+      margin-top: -99px;
+    }
     /* RESUME--------------------------------------- */
     .resume {
       margin-top: -90px;
       margin-right: 0px;
+    }
+
+    .next-2:before {
+      content: ">";
+      right: 60px;
     }
 
     .resume .section-tools {
@@ -708,6 +719,14 @@
     .service {
       margin-right: 0px;
       margin-top: -20px;
+    }
+
+    .service .up .bayangan {
+      font-size: 65px;
+    }
+
+    .service .button-project {
+      margin-left: 20px !important;
     }
 
     .service .button-project {
@@ -807,6 +826,24 @@
     }
 
     .skills .button-project {
+      margin-left: -12px !important;
+      /* margin: 0px -10px !important ; */
+    }
+
+    .skills .up .judul {
+      margin-top: -35px;
+    }
+
+    .skills .up .bayangan {
+      margin-top: -50px;
+      font-size: 65px !important;
+    }
+
+    .skills .up p {
+      margin-top: -60px;
+    }
+
+    button-project .skills .button-project {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
       margin: 50px;
@@ -819,7 +856,7 @@
       box-shadow: -5px -8px rgb(13, 98, 104);
       border-radius: 16px;
       padding: 3px 10px;
-      margin: 0px 15px;
+      margin: 0px 6px;
       text-align: center;
       color: #fff;
       border: none;
@@ -848,27 +885,30 @@
 
     .skills .pembungkus-shs.judul-1 {
       font-size: 20px;
-      margin-left: -24px;
+      margin-left: -67px;
     }
 
     .skills .pembungkus-shs .judul-1 h2 {
       font-size: 16px;
-      margin-left: -24px;
+      margin-left: -67px;
     }
 
     .skills .pembungkus-org .judul-1 h2 {
       font-size: 16px;
-      margin-left: -24px;
+      margin-left: -67px;
+      margin-top: -70px;
     }
 
     .skills .pembungkus-collage .judul-1 h2 {
       font-size: 16px;
-      margin-left: -24px;
+      margin-top: -100px;
+      margin-left: -67px;
     }
 
     .skills .pembungkus-expertise .judul-1 h2 {
       font-size: 16px;
-      margin-left: -24px;
+      margin-top: -50px;
+      margin-left: -67px;
     }
 
     .skills .pembungkus-shs #website {
