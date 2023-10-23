@@ -826,7 +826,7 @@
     }
 
     .skills .button-project {
-      margin-left: -12px !important;
+      margin-left: 0px !important;
       /* margin: 0px -10px !important ; */
     }
 
@@ -896,18 +896,18 @@
     .skills .pembungkus-org .judul-1 h2 {
       font-size: 16px;
       margin-left: -67px;
-      margin-top: -70px;
+      /* margin-top: -70px; */
     }
 
     .skills .pembungkus-collage .judul-1 h2 {
       font-size: 16px;
-      margin-top: -100px;
+      /* margin-top: -100px; */
       margin-left: -67px;
     }
 
     .skills .pembungkus-expertise .judul-1 h2 {
       font-size: 16px;
-      margin-top: -50px;
+      /* margin-top: -50px; */
       margin-left: -67px;
     }
 
